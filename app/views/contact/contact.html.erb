@@ -1,0 +1,18 @@
+<h1>Contact</h1>
+
+<div class="contact_us">
+  <h3>Send us a message</h3>
+
+  
+    <%= f.input :name, :placeholder => "Name", :required => true, :label => false %>
+    <%= f.input :email, :placeholder => "Email", :required => true, :label => false %>
+    <%= f.input :message, :placeholder => "Message", :as => :text, :required => true, :label => false %>
+  <div class= "hidden">
+      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+  </div>
+    <div>
+      </br>
+      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>
