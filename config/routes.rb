@@ -2,7 +2,7 @@ Rails.application.routes.draw do
  root :to => 'session#new'
 
  resources :charges
- resources "contacts", only: [:new, :create]
+ resources "contact", only: [:new, :create]
 
  get '/' => 'session#new'
  get '/home' => 'session#new' #fix this line sometime
