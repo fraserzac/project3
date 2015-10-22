@@ -10,4 +10,5 @@ Rails.application.routes.draw do
  get '/contact', to: 'contacts#contact', via: 'get'
  get '/buy' => 'buy#buy'
  get '/about' => 'about#about'
+ 
 end
