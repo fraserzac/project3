@@ -13,8 +13,18 @@ body {
     background-repeat: no-repeat;
 }
 
+.contact {
+	text-align: center;
+	font-size: 18px;
+}
+
 .home_div {
 	height: 400px;
+}
+
+.gif {
+	text-align: center;
+	padding-bottom: 10px;
 }
 
 .home_text {
@@ -24,7 +34,6 @@ body {
 .btn {
 	background-color: green;
 	font-size: 18px;
-	color: #5e5e5e;
     color: white;
     border: 1px solid grey;
 }
