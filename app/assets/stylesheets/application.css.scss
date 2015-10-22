@@ -21,6 +21,14 @@ body {
 	padding-top: 150px;
 }
 
+.btn {
+	background-color: green;
+	font-size: 18px;
+	color: #5e5e5e;
+    color: white;
+    border: 1px solid grey;
+}
+
 p {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
@@ -29,10 +37,6 @@ p {
 a {
 	font-size: 18px;
 	padding-top: 40px;
-}
-
-.bnbtn {
-	background-color: black;
 }
 
 .navbar-nav > li > a {
